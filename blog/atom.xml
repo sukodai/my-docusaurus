@@ -57,6 +57,24 @@
         <category label="Docusaurus" term="Docusaurus"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Greetings!]]></title>
+        <id>https://sukodai.github.io/my-docusaurus/blog/greetings</id>
+        <link href="https://sukodai.github.io/my-docusaurus/blog/greetings"/>
+        <updated>2021-02-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[初めてのポスト]]></summary>
+        <content type="html"><![CDATA[<p>初めてのポスト</p>
+<p>ドキュサウルスで書いてみました。</p>]]></content>
+        <author>
+            <name>Daisuke Koichi</name>
+            <uri>https://github.com/JoelMarcey</uri>
+        </author>
+        <author>
+            <name>Sébastien Lorber</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <category label="greetings" term="greetings"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Long Blog Post]]></title>
         <id>https://sukodai.github.io/my-docusaurus/blog/long-blog-post</id>
         <link href="https://sukodai.github.io/my-docusaurus/blog/long-blog-post"/>

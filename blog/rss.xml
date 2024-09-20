@@ -46,6 +46,16 @@
             <category>Docusaurus</category>
         </item>
         <item>
+            <title><![CDATA[Greetings!]]></title>
+            <link>https://sukodai.github.io/my-docusaurus/blog/greetings</link>
+            <guid>https://sukodai.github.io/my-docusaurus/blog/greetings</guid>
+            <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[初めてのポスト]]></description>
+            <content:encoded><![CDATA[<p>初めてのポスト</p>
+<p>ドキュサウルスで書いてみました。</p>]]></content:encoded>
+            <category>greetings</category>
+        </item>
+        <item>
             <title><![CDATA[Long Blog Post]]></title>
             <link>https://sukodai.github.io/my-docusaurus/blog/long-blog-post</link>
             <guid>https://sukodai.github.io/my-docusaurus/blog/long-blog-post</guid>
