@@ -1,6 +1,5 @@
 ---
 sidebar_label: "Asset"
-sidebar_position: 14
 ---
 
 # Asset
