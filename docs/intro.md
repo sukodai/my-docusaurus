@@ -1,6 +1,5 @@
 ---
-sidebar_position: 1
-sidebar_label: "イントロダクション"
+sidebar_position: 2
 ---
 
 # Tutorial Intro
