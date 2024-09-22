@@ -7,9 +7,9 @@ import TabItem from "@theme/TabItem";
 
 # CodeBlock
 
-### Code & Title & LineNumbers
+### Title
 
-```jsx showLineNumbers title="/src/components/HelloCodeTitle.js"
+```jsx title="/src/components/HelloCodeTitle.js"
 function HelloCodeTitle(props) {
   return <h1>Hello, {props.name}</h1>;
 }
