@@ -1,6 +1,5 @@
 ---
 sidebar_label: "Admonitions"
-sidebar_position: 13
 ---
 
 # Admonitions
