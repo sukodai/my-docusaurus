@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "My Site",
+  title: "マイサウルス",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
@@ -90,30 +90,42 @@ const config: Config = {
           label: "GitHub",
           position: "right",
         },
+        {
+          type: "localeDropdown",
+          position: "right",
+        },
       ],
     },
     footer: {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "ドキュメント",
           items: [
             {
-              label: "Tutorial",
+              label: "チュートリアル",
               to: "/docs/intro",
+            },
+            {
+              label: "使い方",
+              to: "/docs/usage",
+            },
+            {
+              label: "ブログ",
+              to: "/blog",
             },
           ],
         },
         {
-          title: "Community",
+          title: "コミュニティ",
           items: [
+            {
+              label: "GitHub",
+              href: "https://github.com/facebook/docusaurus",
+            },
             {
               label: "Stack Overflow",
               href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
             },
             {
               label: "Twitter",
@@ -122,24 +134,39 @@ const config: Config = {
           ],
         },
         {
-          title: "More",
+          title: "各種規約",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
+              label: "Terms of Use",
+              href: "https://opensource.fb.com/legal/terms/",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Privacy Policy",
+              href: "https://opensource.fb.com/legal/privacy/",
+            },
+            {
+              label: "Cookie Policy",
+              href: "https://opensource.fb.com/legal/cookie-policy/",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} SUKODAI`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    // https://docusaurus.io/docs/api/themes/configuration#color-mode---dark-mode
+    colorMode: {
+      defaultMode: "light",
+      disableSwitch: false,
+    },
+    docs: {
+      sidebar: {
+        hideable: true, // サイドバーの開閉可能にする
+        autoCollapseCategories: true, // 片方を開くと片方が閉じる
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
