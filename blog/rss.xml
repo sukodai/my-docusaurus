@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>My Site Blog</title>
+        <title>マイサウルス Blog</title>
         <link>https://sukodai.github.io/my-docusaurus/blog</link>
-        <description>My Site Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <description>マイサウルス Blog</description>
+        <lastBuildDate>Mon, 23 Sep 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[Bugfix!]]></title>
+            <link>https://sukodai.github.io/my-docusaurus/blog/bugfix</link>
+            <guid>https://sukodai.github.io/my-docusaurus/blog/bugfix</guid>
+            <pubDate>Mon, 23 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[バグフィックス！]]></description>
+            <content:encoded><![CDATA[<p>バグフィックス！</p>
+<p>軽微なバグを修正しました。</p>]]></content:encoded>
+            <category>Bugfix</category>
+        </item>
+        <item>
+            <title><![CDATA[Update!]]></title>
+            <link>https://sukodai.github.io/my-docusaurus/blog/update</link>
+            <guid>https://sukodai.github.io/my-docusaurus/blog/update</guid>
+            <pubDate>Sun, 22 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[新機能リリース！]]></description>
+            <content:encoded><![CDATA[<p>新機能リリース！</p>
+<p>新しい機能を追加しました。</p>]]></content:encoded>
+            <category>Update</category>
+        </item>
+        <item>
+            <title><![CDATA[初めまして]]></title>
+            <link>https://sukodai.github.io/my-docusaurus/blog/greetings</link>
+            <guid>https://sukodai.github.io/my-docusaurus/blog/greetings</guid>
+            <pubDate>Sat, 21 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[はじめまして]]></description>
+            <content:encoded><![CDATA[<p>はじめまして</p>
+<p>ドキュサウルスを初めてみました。
+使い勝手が良さそうです。</p>]]></content:encoded>
+            <category>greetings</category>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://sukodai.github.io/my-docusaurus/blog/welcome</link>
@@ -44,16 +75,6 @@
 <div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <button>Click me!</button>]]></content:encoded>
             <category>Docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Greetings!]]></title>
-            <link>https://sukodai.github.io/my-docusaurus/blog/greetings</link>
-            <guid>https://sukodai.github.io/my-docusaurus/blog/greetings</guid>
-            <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[初めてのポスト]]></description>
-            <content:encoded><![CDATA[<p>初めてのポスト</p>
-<p>ドキュサウルスで書いてみました。</p>]]></content:encoded>
-            <category>greetings</category>
         </item>
         <item>
             <title><![CDATA[Long Blog Post]]></title>
