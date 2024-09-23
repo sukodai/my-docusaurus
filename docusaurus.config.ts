@@ -1,29 +1,23 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
-import type * as Preset from "@docusaurus/preset-classic";
+import * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "マイサウルス",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
-  // Set the production url of your site here
-  url: "https://sukodai.github.io/",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/my-docusaurus/",
+  url: "https://sukodai.github.io/", // Set the production url of your site here
+  baseUrl: "/my-docusaurus/", // For GitHub pages deployment, it is often '/<projectName>/'
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: "sukodai", // Usually your GitHub org/user name.
   projectName: "my-docusaurus", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // you can use this field to set useful metadata like html lang.
   i18n: {
     defaultLocale: "ja",
     locales: ["ja"],
@@ -37,8 +31,8 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          //editUrl:
+          // "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
@@ -48,8 +42,8 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          //editUrl:
+          //  "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -63,9 +57,9 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
+      hideOnScroll: true, // スクロール時に非表示
       title: "マイサウルス",
       logo: {
         alt: "My Site Logo",
@@ -113,6 +107,10 @@ const config: Config = {
         },
         {
           type: "localeDropdown",
+          position: "right",
+        },
+        {
+          type: "search",
           position: "right",
         },
       ],
@@ -190,6 +188,19 @@ const config: Config = {
       },
     },
   } satisfies Preset.ThemeConfig,
+
+  // LocalSearch https://github.com/cmfcmf/docusaurus-search-local
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        indexDocs: true,
+        indexBlog: true,
+        language: "ja",
+        maxSearchResults: 10,
+      },
+    ],
+  ],
 };
 
 export default config;
