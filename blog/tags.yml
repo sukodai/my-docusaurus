@@ -17,3 +17,13 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+update:
+  label: Update
+  permalink: /update
+  description: 機能を改善しました！
+
+bugfix:
+  label: Bugfix
+  permalink: /bugfix
+  description: バグを修正しました！
