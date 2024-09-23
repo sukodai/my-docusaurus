@@ -86,6 +86,27 @@ const config: Config = {
         },
         { to: "/blog", label: "ブログ", position: "left" },
         {
+          type: "dropdown",
+          label: "ワンオフ",
+          position: "left",
+          items: [
+            {
+              label: "Facebook",
+              href: "https://www.facebook.com",
+            },
+            {
+              type: "doc",
+              label: "はじめの一歩",
+              docId: "hello", // src/pages/... は指定不可
+            },
+            {
+              type: "doc",
+              label: "イントロダクション",
+              docId: "intro", // src/pages/... は指定不可
+            },
+          ],
+        },
+        {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
           position: "right",
